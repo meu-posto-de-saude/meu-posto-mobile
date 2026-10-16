@@ -5,7 +5,7 @@
   "type": "module",
   "main": "expo-router/entry",
   "engines": {
-    "node": ">=22.13.0 <23"
+    "node": ">=22.22.1 <23"
   },
   "scripts": {
     "dev": "expo start",

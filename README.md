@@ -10,7 +10,7 @@ App do paciente do projeto Meu Posto de Saúde — agendamento em UBS.
 
 ## Requisitos
 
-- Node.js 22 (`>=22.13.0`; o CI usa a versão de [`.nvmrc`](./.nvmrc))
+- Node.js 22 (`>=22.22.1`, mínimo do `lint-staged`; o CI usa a versão de [`.nvmrc`](./.nvmrc))
 - Expo Go compatível com o **SDK 58**:
   - **Android:** a Play Store pode estar atrás — instale o APK oficial em [expo/expo-go-releases](https://github.com/expo/expo-go-releases/releases) (versão `58.x`).
   - **iPhone:** a App Store parou no SDK 54. Rodar no iPhone exige `eas go` (TestFlight) com conta Apple Developer.
