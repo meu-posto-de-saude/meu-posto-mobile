@@ -42,5 +42,6 @@ Os arquivos dentro de `src/app/` seguem a convenção do **Expo Router** (SDK 58
 
 ## Regras que o CI verifica (`npm run guards`)
 
+- Nunca arquivo JavaScript (`.js`, `.jsx`, `.mjs`, `.cjs`) em `src/` ou `scripts/`: o projeto é 100% TypeScript. Script de ferramenta roda com `node arquivo.ts` (type stripping nativo do Node).
 - Nunca `allowFontScaling={false}` nem `maxFontSizeMultiplier`: o layout aguenta fonte em 200%.
 - Nunca AsyncStorage: token vai em `expo-secure-store`, o resto em `expo-sqlite`.
