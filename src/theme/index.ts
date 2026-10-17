@@ -1,6 +1,6 @@
 export { brandGradient, colors } from '@/theme/colors';
 export type { Colors } from '@/theme/colors';
-export { fontFamily, robotoFonts } from '@/theme/fonts';
+export { appFonts, fontFamily, symbolWeights } from '@/theme/fonts';
 export { layout } from '@/theme/layout';
 export { radii } from '@/theme/radii';
 export { shadows } from '@/theme/shadows';
