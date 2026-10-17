@@ -3,6 +3,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { FormSection } from '@/features/debug/components/FormSection';
 import { IconSection } from '@/features/debug/components/IconSection';
+import { LayoutSection } from '@/features/debug/components/LayoutSection';
 import { TypeScaleSection } from '@/features/debug/components/TypeScaleSection';
 import { colors, layout, typography } from '@/theme';
 
@@ -19,6 +20,7 @@ export function DebugScreen() {
         <Text style={styles.scale}>Escala de fonte do sistema: {fontScale.toFixed(2)}×</Text>
         <FormSection />
         <IconSection />
+        <LayoutSection />
         <TypeScaleSection />
       </ScrollView>
     </SafeAreaView>
